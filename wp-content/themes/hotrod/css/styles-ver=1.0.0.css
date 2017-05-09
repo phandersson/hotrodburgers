@@ -1,0 +1,118 @@
+html, body {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.hotrod__header {
+  height: 720px;
+  background: url("../assets/images/start.jpg") no-repeat left center;
+  background-size: cover;
+  position: relative; }
+  @media screen and (max-width: 320px) {
+    .hotrod__header {
+      background-position: -10px 0;
+      background-size: 1100px; } }
+  .hotrod__header-social {
+    padding-top: 90px;
+    width: 280px; }
+  .hotrod__header-nav-button {
+    position: absolute;
+    right: 15px;
+    z-index: 999;
+    background: white;
+    color: black;
+    height: 45px;
+    width: 45px;
+    margin-top: 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    display: none;
+    cursor: pointer;
+    border: none; }
+    @media (max-width: 992px) {
+      .hotrod__header-nav-button {
+        display: flex;
+        display: inline-flex; } }
+  .hotrod__header-nav-container {
+    display: block; }
+    @media (max-width: 992px) {
+      .hotrod__header-nav-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%; } }
+  @media (max-width: 992px) {
+    .hotrod__header-nav nav.menu {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0; }
+      .hotrod__header-nav nav.menu ul {
+        min-height: 200px;
+        background: #1a1a1a;
+        text-align: left !important; }
+        .hotrod__header-nav nav.menu ul li {
+          display: block; }
+          .hotrod__header-nav nav.menu ul li a {
+            padding-left: 30px !important;
+            display: block !important;
+            text-align: left !important;
+            font-size: 18px !important; } }
+  .hotrod__header-nav nav.menu ul {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    padding-top: 30px; }
+    .hotrod__header-nav nav.menu ul li {
+      padding: 0;
+      margin: 0;
+      list-style: normal;
+      display: inline-block; }
+      .hotrod__header-nav nav.menu ul li ul {
+        display: none; }
+      .hotrod__header-nav nav.menu ul li a {
+        text-decoration: none !important;
+        padding: 10px 15px;
+        display: inline-block;
+        background: none;
+        color: white;
+        font-size: 16px;
+        transition: all 300ms ease;
+        text-transform: uppercase; }
+        .hotrod__header-nav nav.menu ul li a:hover {
+          background: white;
+          color: black; }
+.hotrod__content .btn {
+  border-radius: 0 !important;
+  min-width: 150px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  background: #725cea !important;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px; }
+.hotrod__content--overlay .hotrod__content-back {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px; }
+.hotrod__content-section {
+  padding: 80px 0; }
+  .hotrod__content-section--image {
+    background: no-repeat center center;
+    background-size: cover;
+    text-align: center; }
+  .hotrod__content-section:nth-child(even) {
+    background: #eee;
+    border-top: 1px solid #ccc; }
+  .hotrod__content-section-text {
+    padding: 40px 0; }
+  .hotrod__content-section-img {
+    max-width: 100%; }
+  .hotrod__content-section-button {
+    padding-top: 20px; }
+
+/*# sourceMappingURL=styles.css.map */

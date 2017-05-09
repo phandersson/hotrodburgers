@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Hot Rod Burgers &amp; Grill</title>
+	<atom:link href="http://localhost/?feed=rss2" rel="self" type="application/rss+xml" />
+	<link>http://localhost:1337</link>
+	<description>En till WordPress-webbplats</description>
+	<lastBuildDate>Wed, 26 Apr 2017 16:56:34 +0000</lastBuildDate>
+	<language>sv-SE</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.4</generator>
+	<item>
+		<title>Hej världen!</title>
+		<link>http://localhost:1337/?p=1</link>
+		<comments>http://localhost:1337/?p=1#comments</comments>
+		<pubDate>Wed, 26 Apr 2017 16:56:34 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Okategoriserade]]></category>
+
+		<guid isPermaLink="false">http://localhost:1337/?p=1</guid>
+		<description><![CDATA[Välkommen till WordPress. Det här är ditt första inlägg. Redigera eller radera det. Sedan kan du börja skriva!]]></description>
+				<content:encoded><![CDATA[<p>Välkommen till WordPress. Det här är ditt första inlägg. Redigera eller radera det. Sedan kan du börja skriva!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://localhost:1337/?feed=rss2&#038;p=1</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>
